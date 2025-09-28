@@ -1,0 +1,16 @@
+{
+  "auth": {
+    "staticToken": "changeme"
+  },
+  "logging": {
+    "level": "info"
+  },
+  "policy": {
+    "allow": [
+      "fs.*",
+      "http.fetchText",
+      "vector.*"
+    ]
+  }
+}
+

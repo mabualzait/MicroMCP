@@ -1,0 +1,18 @@
+# Example static discovery manifest for the Micro‑MCP Gateway
+services:
+  - name: fs
+    namespace: fs
+    transport: stdio
+    command: node
+    args: ["services/fs/server.js"]
+  - name: http
+    namespace: http
+    transport: stdio
+    command: node
+    args: ["services/http/server.js"]
+  - name: vector
+    namespace: vector
+    transport: stdio
+    command: node
+    args: ["services/vector/server.js"]
+
