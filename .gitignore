@@ -1,0 +1,10 @@
+MICRO-MCP-ROADMAP.md
+node_modules/
+.DS_Store
+dist/
+*.log
+*.tmp
+*.swp
+.env
+docs/WRITERS_REFERENCE.md
+ 
